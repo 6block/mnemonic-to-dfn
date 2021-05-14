@@ -2,7 +2,7 @@
   "name": "dfn-test",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/index.html",
+  "main": "docs/index.html",
   "dependencies": {
     "bitcore-lib": "^0.16.0",
     "bitcore-mnemonic": "^1.1.1",
@@ -10,7 +10,7 @@
   },
   "scripts": {
     "start": "parcel serve ./src/index.html",
-    "build": "rimraf dist/* && parcel build ./src/index.html"
+    "build": "rimraf docs/* && parcel build ./src/index.html"
   },
   "author": "",
   "license": "ISC",
